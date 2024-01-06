@@ -8,19 +8,15 @@ DashScope灵积模型服务建立在“模型即服务”（Model-as-a-Service�
 
 #### 软件架构
 软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+JDK8+
+Lombok
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. 填入 DashScope灵积模型服务使用API-KEY作为调用API的密钥 [请修改文件位置](src/main/java/com/boxtrade/gpt/constant/DashScope.java)
+2. 填入 DashScope灵积模型服务使用API-KEY作为调用API的密钥 即可以使用！ com.boxtrade.gpt.constant.DashScope.API_KEY
+3. 执行测试案例(摘抄自官网)，调试
+4. 特色功能 模型监督学习 [DashScope模型监督学习](src/test/java/com/boxtrade/gpt/evaluate/QwenAnswerEvaluatorTest.java)
 
 #### 参与贡献
 
